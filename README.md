@@ -24,9 +24,9 @@ There are 2 sheet:
 - Column C: params in JSON format
 
      Example:  
-     URL: https://mywebsite.com  
+     URL: `https://mywebsite.com`  
      PARAMS: {"param1":"test", "params2":"test2"}  
-     FETCHED URL: https://mywebsite.com?param1=test&param2=test2  
+     FETCHED URL: `https://mywebsite.com?param1=test&param2=test2`  
   
 - Column D: headers in JSON format
 - Column E: Body Type that can be JSON or TEXT

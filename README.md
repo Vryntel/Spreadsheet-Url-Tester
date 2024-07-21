@@ -1,9 +1,9 @@
 # Spreadsheet-Url-Tester
-A Google Spreadsheet to send HTTP calls (GET, POST, DELETE, PATCH, PUT) to multiple URLs with the possibility of specify params, headers and body in the call.
+A Google Spreadsheet to send HTTP request (GET, POST, DELETE, PATCH, PUT) to multiple URLs with the possibility of specify params, headers and body in the call.
 
 
+![screenshot](Url-tester.png)
 
-Supported HTTP request methods: GET, POST, DELETE, PATCH, PUT
 
 
 ## Usage
@@ -15,7 +15,7 @@ There are 2 sheet:
 ### Data sheet
 
 - Column A: url
-- Column B: HTTP request method (GET, POST, DELETE, PATCH, PUT)
+- Column B: HTTP request method (Supported HTTP request methods: GET, POST, DELETE, PATCH, PUT)
 - Column C: params in JSON format
 
      Example:

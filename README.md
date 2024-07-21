@@ -1,5 +1,5 @@
 # Spreadsheet-Url-Tester
-A Google Spreadsheet to send HTTP request (GET, POST, DELETE, PATCH, PUT) to multiple URLs with the possibility of specify params, headers and body in the call.
+A Google spreadsheet to send HTTP requests (GET, POST, DELETE, PATCH, PUT) to multiple URLs with the ability to specify parameters, headers and body in the call.
 
 
 ![screenshot](Url-tester.png)
@@ -19,7 +19,7 @@ There are 2 sheet:
 
 ### Data sheet
 
-- Column A: url
+- Column A: URL
 - Column B: HTTP request method (Supported HTTP request methods: GET, POST, DELETE, PATCH, PUT)
 - Column C: params in JSON format
 
@@ -30,17 +30,17 @@ There are 2 sheet:
   
 - Column D: headers in JSON format
 - Column E: Body Type that can be JSON or TEXT
-- Column F: body in JSON/PLAIN TEXT format
+- Column F: body in JSON/TEXT format
 - Column G: Response Code returned by the request
-- Column H: Response body returned by the request
+- Column H: Response Body returned by the request
   
 
 ### Settings sheet
 
-You can edit the settings of the http requests:
+You can edit some adavnced settings of the HTTP requests:
 
 - validateHttpsCertificates: TRUE/FALSE --> If FALSE the fetch ignores any invalid certificates for HTTPS requests
 - followRedirects: TRUE/FALSE --> If FALSE the fetch doesn't automatically follow HTTP redirects; it returns the original HTTP response
 
 
-To run the script you can use the toolbar options "Url Tester". The first time when you run the script it will ask to grant permissions.
+To run the script you can use the toolbar options "Url Tester" > "Test Urls". The first time when you run the script it will ask you to grant permissions.

@@ -6,6 +6,11 @@ A Google Spreadsheet to send HTTP request (GET, POST, DELETE, PATCH, PUT) to mul
 
 
 
+Spreadsheet with Google Apps Script:
+
+https://docs.google.com/spreadsheets/d/1UyuKCRO8BWcIaluGEYTuUZglBryo0uFBji2a6tbBXCw/copy
+
+
 ## Usage
 
 There are 2 sheet:
